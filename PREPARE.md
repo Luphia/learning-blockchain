@@ -20,12 +20,25 @@ docker pull ubuntu:16.04
 * Clone from URL
 * https://github.com/Luphia/learning-blockchain/
 
-### 建立 Docker Image
+### 建立 Docker
 ```shell
 cd learning-blockchain/docker/tidedog
+docker image build -t tidedog .
+docker image ls
+docker run -t -i -p 8545 -p 80 -p 443 tidedog
+bin/start.js
+ctrl + p + q
+docker container ls
 ```
+
+## Postman
+* https://www.getpostman.com/
+* import learning-blockchain/ETHRPC.postman_colletion.json
+* setting environment
 
 ## Documents
 [Docker](https://docs.docker.com/)
 [Solidity](https://solidity.readthedocs.io/)
 [Solidity IDE](https://remix.ethereum.org)
+[Ethereum JSON-RPC](https://github.com/ethereum/wiki/wiki/JSON-RPC)
+[XPA Exchange](https://xpa.exchange)

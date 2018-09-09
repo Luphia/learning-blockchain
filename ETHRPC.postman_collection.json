@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "ec82f58c-800b-c6ec-43ab-2dd510e3f967",
+		"_postman_id": "d8cbf0bc-a6f4-4865-9d62-c69eea263e10",
 		"name": "ETH RPC",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -760,6 +760,31 @@
 					"host": [
 						"{{parity}}"
 					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eth_sendTransaction",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"method\":\"eth_sendTransaction\",\n\t\"params\": [{\n\t\t\"from\": \"0xdc268ccc0edd5ef549b38e477e529fda120b4b00\",\n\t\t\"to\": \"0xd46e8dd67c5d32be8058bb8eb970870f07244567\",\n\t\t\"value\": \"0x2b5e3af16b1880000\",\n\t\t\"data\": \"0x0\"\n\t}],\n\t\"id\":\"c71a9e1213f18f0a7c0434a3536c67a2\",\n\t\"jsonrpc\":\"2.0\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:32781",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "32781"
 				}
 			},
 			"response": []
