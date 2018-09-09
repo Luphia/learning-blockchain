@@ -46,5 +46,10 @@ docker container ls
 [EtherScan](https://etherscan.io/)
 
 ## Videos
-[Block-Chain](https://www.youtube.com/watch?v=SSo_EIwHSd4)
+[Blockchain](https://www.youtube.com/watch?v=SSo_EIwHSd4)
+[Blockchain TED](https://www.youtube.com/watch?v=Pl8OlkkwRpc)
 [ECDSA](https://www.youtube.com/watch?v=dCvB-mhkT0w)
+
+## White Papers
+[Bitcoin](https://bitcoin.org/bitcoin.pdf)
+[Ethereum](https://ethereum.github.io/yellowpaper/paper.pdf)

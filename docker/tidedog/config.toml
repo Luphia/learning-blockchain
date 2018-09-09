@@ -1,0 +1,29 @@
+# BlockScanner Default Config
+
+title = "BlockScanner"
+
+[base]
+folder = "chaindata"
+debug = false
+
+[blockchain]
+protocol = "http:"
+hostname = "127.0.0.1"
+port = 8545
+path = "/"
+
+[database]
+protocol = "mongodb:"
+hostname = "127.0.0.1"
+port = 27012
+db = "CHAINDATA"
+prefix = "BC2_"
+user = "BC2"
+password = "password"
+
+[api]
+pathname = [
+  "get | /,/version | Static.Utils.readPackageInfo | auth | hashcash",
+  "post | / | Bot.BlockScanner.jsonrpc | auth",
+  "get | /test | Static.Test.f1"
+]
