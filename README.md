@@ -1,6 +1,9 @@
 # learning-blockchain
 The sample code for learning blockchain
 
+## Slack
+iiilearningblockchain.slack.com
+
 ## Docker Command
 ```
 # 列出 container 清單
