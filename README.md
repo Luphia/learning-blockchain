@@ -36,3 +36,6 @@ docker detach: ctrl + p + q
 # container 重新連線
 docker attach ${container_id}
 ```
+
+## Simply Explained of Blockchain
+https://www.youtube.com/watch?v=SSo_EIwHSd4
