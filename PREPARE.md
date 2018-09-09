@@ -41,4 +41,10 @@ docker container ls
 [Solidity](https://solidity.readthedocs.io/)
 [Solidity IDE](https://remix.ethereum.org)
 [Ethereum JSON-RPC](https://github.com/ethereum/wiki/wiki/JSON-RPC)
+[BIPs](https://github.com/bitcoin/bips)
 [XPA Exchange](https://xpa.exchange)
+[EtherScan](https://etherscan.io/)
+
+## Videos
+[Block-Chain](https://www.youtube.com/watch?v=SSo_EIwHSd4)
+[ECDSA](https://www.youtube.com/watch?v=dCvB-mhkT0w)
