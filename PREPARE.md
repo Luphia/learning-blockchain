@@ -42,6 +42,7 @@ docker container ls
 * [Solidity IDE](https://remix.ethereum.org)
 * [Ethereum JSON-RPC](https://github.com/ethereum/wiki/wiki/JSON-RPC)
 * [BIPs](https://github.com/bitcoin/bips)
+* [EIPs](https://github.com/ethereum/EIPs)
 * [XPA Exchange](https://xpa.exchange)
 * [EtherScan](https://etherscan.io/)
 
