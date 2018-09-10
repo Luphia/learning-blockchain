@@ -26,12 +26,12 @@ C 開蛋糕店
 
 A 買一個麵包 -> B 買一個蛋糕 -> C 買一杯咖啡
 ```
-- 傳統金流
+- 傳統金流  
 ![](https://github.com/Luphia/learning-blockchain/blob/master/resources/p1.png)
-- 區塊鏈
+- 區塊鏈  
 ![](https://github.com/Luphia/learning-blockchain/blob/master/resources/p2.png)
 ### FOMO3D
-- 無區塊鏈架構
+- 無區塊鏈架構  
 ![](https://github.com/Luphia/learning-blockchain/blob/master/resources/p3.png)
-- 區塊鏈架構
+- 區塊鏈架構  
 ![](https://github.com/Luphia/learning-blockchain/blob/master/resources/p4.png)
