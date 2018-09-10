@@ -1,5 +1,5 @@
 class Test {
-  f1() {
+  static f1() {
     return Promise.resolve({'Hello': 'World'});
   }
 }

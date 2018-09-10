@@ -10,7 +10,7 @@ USER ubuntu
 WORKDIR /home/ubuntu
 RUN git clone https://github.com/XPAEXCHANGE/TideDog
 COPY Test.js /home/ubuntu/TideDog/libs/
-COPY config.toml /home/ubuntu/TideDog/libs/
+COPY config.toml /home/ubuntu/TideDog/
 WORKDIR /home/ubuntu/TideDog
 RUN npm i
 CMD /bin/bash
