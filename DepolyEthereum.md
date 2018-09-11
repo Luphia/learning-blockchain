@@ -87,9 +87,9 @@ vi config.toml
 ```
 ```toml
 [parity]
-chain = "$HOME/parity/genesis.json"
-base_path = "$HOME/parity"
-keys_path = "$HOME/parity/keys"
+chain = "/home/ubuntu/parity/genesis.json"
+base_path = "/home/ubuntu/parity"
+keys_path = "/home/ubuntu/parity/keys"
 
 [footprint]
 tracing = "off"
@@ -104,7 +104,7 @@ engine_signer = "0x7a96a850eddd0f635b9d7ec867b13a380069bedc"
 
 [account]
 unlock = ["0x7a96a850eddd0f635b9d7ec867b13a380069bedc"]
-password = ["$HOME/parity/.pw"]
+password = ["/home/ubuntu/parity/.pw"]
 keys_iterations = 10240
 
 [rpc]
