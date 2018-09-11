@@ -118,9 +118,15 @@ apis = ["web3", "eth", "net", "parity", "parity_set", "rpc"]
 apis = ["web3", "eth", "net", "parity", "parity_accounts", "personal", "traces", "rpc", "secretstore"]
 ```
 
+## Create 2 Wallets
+```shell
+echo "YOUR_PASSWORD" > $HOME/parity/.pw
+sh -c '/bin/echo -e "YOUR_PASSWORD\nYOUR_PASSWORD" | parity --config $HOME/parity/config.toml account new | grep -o '0x[0-9a-f]*'
+```
+
 ## Start Parity
 ```shell
-screen parity --config $HOME/parity/config.toml --jsonrpc-cors all
+screen parity --config $HOME/parity/config.toml
 ```
 
 ## Add Node
