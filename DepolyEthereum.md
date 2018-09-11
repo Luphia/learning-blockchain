@@ -86,8 +86,7 @@ vi genesis.json
 vi config.toml
 ```
 ```toml
-[
-parity]
+[parity]
 chain = "/home/localadmin/parity/genesis.json"
 base_path = "$HOME/parity"
 keys_path = "$HOME/parity/keys"
