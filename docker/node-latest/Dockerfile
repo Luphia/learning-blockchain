@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Luphia (luphia.chang@tideisun.com)
+LABEL maintainer="Luphia (luphia.chang@tideisun.com)"
 
 WORKDIR /root
 RUN apt-get update

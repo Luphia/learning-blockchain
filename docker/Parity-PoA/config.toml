@@ -1,0 +1,30 @@
+[parity]
+chain = "/home/ubuntu/parity/genesis.json"
+base_path = "/home/ubuntu/parity"
+keys_path = "/home/ubuntu/parity/keys"
+
+[footprint]
+tracing = "off"
+pruning = "archive"
+
+[network]
+port = 30300
+
+[mining]
+author = "0x7a96a850eddd0f635b9d7ec867b13a380069bedc"
+engine_signer = "0x7a96a850eddd0f635b9d7ec867b13a380069bedc"
+
+[account]
+unlock = ["0x7a96a850eddd0f635b9d7ec867b13a380069bedc"]
+password = ["/home/ubuntu/parity/.pw"]
+keys_iterations = 10240
+
+[rpc]
+port = 8545
+interface = "0.0.0.0"
+cors = ["all"]
+#apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
+apis = ["web3", "eth", "net", "parity", "parity_set", "rpc"]
+
+[ipc]
+apis = ["web3", "eth", "net", "parity", "parity_accounts", "personal", "traces", "rpc", "secretstore"]
