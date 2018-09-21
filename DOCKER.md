@@ -37,4 +37,10 @@ docker detach: ctrl + p + q
 
 # container 重新連線
 docker attach ${container_id}
+
+# 關閉所有 container
+docker kill $(docker ps -q)
+
+# 清除所有 image
+docker rmi $(docker images -a -q)
 ```
