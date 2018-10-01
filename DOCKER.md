@@ -44,3 +44,12 @@ docker kill $(docker ps -q)
 # 清除所有 image
 docker rmi $(docker images -a -q)
 ```
+
+## Docker-Compose
+```shell
+# 建立並啟動指定容器設定
+docker-compose up --build
+
+# 關閉並移除指定容器設定
+docker-compose down --volume
+```
