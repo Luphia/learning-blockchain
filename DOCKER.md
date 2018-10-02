@@ -30,7 +30,7 @@ docker container kill ${container_id}
 docker container start ${container_id}
 
 # 刪除 container
-docker container rm
+docker container rm ${container_id}
 
 # 跳出 container 連線
 docker detach: ctrl + p + q
@@ -40,6 +40,9 @@ docker attach ${container_id}
 
 # 關閉所有 container
 docker kill $(docker ps -q)
+
+# 刪除所有 container
+docker rm $(docker container ls -aq)
 
 # 清除所有 image
 docker rmi $(docker images -a -q)
