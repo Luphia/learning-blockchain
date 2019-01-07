@@ -35,9 +35,3 @@ A 買一個麵包 -> B 買一個蛋糕 -> C 買一杯咖啡
 ![](https://github.com/Luphia/learning-blockchain/blob/master/resources/p3.png)
 - 區塊鏈架構  
 ![](https://github.com/Luphia/learning-blockchain/blob/master/resources/p4.png)
-
-### 使用區塊鏈的關鍵技術
-- Wallet: 區塊鏈的用戶帳號
-- 架設鏈
-- 與鏈溝通
-- Backend
