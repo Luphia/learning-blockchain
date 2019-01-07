@@ -76,6 +76,7 @@ docker container ls
 * [EIPs](https://github.com/ethereum/EIPs)
 * [XPA Exchange](https://xpa.exchange)
 * [EtherScan](https://etherscan.io/)
+* [Learning Smart Contract](https://cryptozombies.io/)
 
 ## Videos
 * [Blockchain](https://www.youtube.com/watch?v=SSo_EIwHSd4)
