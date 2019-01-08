@@ -4,7 +4,6 @@
 ```shell
 adduser ubuntu
 adduser ubuntu sudo
-su ubuntu
 ```
 
 ## Setup SWAP
@@ -19,8 +18,12 @@ sudo swapon /swapfile
 
 ## Install library
 ```shell
-sudo apt-get update
-sudo apt-get install openssl libtool autoconf automake uuid-dev build-essential gcc g++ python-software-properties unzip make git libcap2-bin vim curl wget sudo screen -y
+apt-get update
+apt-get install openssl libtool autoconf automake uuid-dev build-essential gcc g++ python-software-properties unzip make git libcap2-bin vim curl wget sudo screen -y
+```
+## Switch to ubuntu
+```shell
+su ubuntu
 ```
 
 ## Install Parity
