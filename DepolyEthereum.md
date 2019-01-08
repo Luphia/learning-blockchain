@@ -38,6 +38,12 @@ mkdir parity
 cd parity
 ```
 
+## Create Wallet
+```shell
+parity --config $HOME/parity/config.toml account new
+vi /home/ubuntu/parity/.pw
+```
+
 ## Setup Genesis Block
 ```shell
 vi genesis.json
@@ -51,8 +57,7 @@ vi genesis.json
         "stepDuration": "3",
         "validators" : {
           "list": [
-            "0x7d04e22b7b4bd658ecb74bd97c7031b02c5060eb",
-            "0x7a96a850eddd0f635b9d7ec867b13a380069bedc"
+            "${YOUR ADDRESS}"
           ]
         }
       }
@@ -65,7 +70,6 @@ vi genesis.json
     "networkID" : "0x1",
     "eip155Transition": 0,
     "eip98Transition": 0,
-    "eip86Transition": 0,
     "eip140Transition": 0,
     "eip211Transition": 0,
     "eip214Transition": 0,
@@ -109,11 +113,11 @@ pruning = "archive"
 port = 30300
 
 [mining]
-author = "0x7a96a850eddd0f635b9d7ec867b13a380069bedc"
-engine_signer = "0x7a96a850eddd0f635b9d7ec867b13a380069bedc"
+author = "${YOUR ADDRESS}"
+engine_signer = "${YOUR ADDRESS}"
 
 [account]
-unlock = ["0x7a96a850eddd0f635b9d7ec867b13a380069bedc"]
+unlock = ["${YOUR ADDRESS}"]
 password = ["/home/ubuntu/parity/.pw"]
 keys_iterations = 10240
 
