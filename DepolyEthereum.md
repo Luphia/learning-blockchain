@@ -3,7 +3,8 @@
 ## Create User
 ```shell
 adduser ubuntu
-adduser ubuntu sudo 
+adduser ubuntu sudo
+su ubuntu
 ```
 
 ## Setup SWAP
