@@ -33,6 +33,7 @@ bash <(curl https://get.parity.io -kL)
 
 ## Prepare Runtime Folder
 ```shell
+cd ~
 mkdir parity
 cd parity
 ```
