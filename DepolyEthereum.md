@@ -40,7 +40,7 @@ cd parity
 
 ## Create Wallet
 ```shell
-parity --config $HOME/parity/config.toml account new
+parity --keys-path /home/ubuntu/parity/keys account new
 vi /home/ubuntu/parity/.pw
 ```
 
