@@ -1,5 +1,11 @@
 # Deploy Ethereum to Ubuntu 16.04
 
+# Docker Version
+```
+docker image build -t parity docker/Parity-PoA
+docker run -t -i parity
+```
+
 ## Create User
 ```shell
 adduser ubuntu
