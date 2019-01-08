@@ -1,5 +1,11 @@
 # Deploy Ethereum to Ubuntu 16.04
 
+## Create User
+```shell
+adduser ubuntu
+adduser ubuntu sudo 
+```
+
 ## Setup SWAP
 ```shell
 sudo swapon -s
