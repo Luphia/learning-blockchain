@@ -48,7 +48,6 @@ vi genesis.json
   "engine": {
     "authorityRound": {
       "params": {
-        "gasLimitBoundDivisor": "0x400",
         "stepDuration": "3",
         "validators" : {
           "list": [
